@@ -1,2 +1,0 @@
-# comment-system
-practice project
