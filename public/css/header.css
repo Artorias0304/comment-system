@@ -1,0 +1,38 @@
+.header{
+	width:100em;
+	height:4em;
+	margin:0 auto;
+	border-bottom:0.1em solid #ccc
+}
+.header h1{
+	display: inline;
+	font-size: 2em;
+	line-height: 200%;
+}
+.user-info{
+	width:20em;
+	height:100%;
+	float:right;
+	position: relative;
+}
+.user-info a{
+	color:#fff;
+	text-decoration:none;
+}
+.user-login, .user-register{
+	text-align: center;
+	line-height:2.3em;
+	display: inline-block;
+	width:7em;
+	height:60%;
+	background:#28a745;
+	position:absolute;
+	right:9em;
+	top:50%;
+	margin-top:-1.2em;
+	border-radius:0.5em
+}
+.user-register{
+	right:1em;
+	background:#6495ED;
+}
