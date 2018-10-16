@@ -19,6 +19,30 @@
 	color:#fff;
 	text-decoration:none;
 }
+.user-info-02{
+	width:20em;
+	height:100%;
+	float:right;
+	font-size:1.5em;
+	position: relative;
+}
+.user-info-02 a{
+	text-decoration:none;
+}
+.username{
+	display: inline-block;
+}
+.username:hover{
+	cursor: pointer;
+}
+.user-login-info{
+	text-align: right;
+	padding:0.85em;
+	color:#000;
+}
+.user-login-info a{
+	color:#000
+}
 .user-login, .user-register{
 	text-align: center;
 	line-height:2.3em;
@@ -35,4 +59,30 @@
 .user-register{
 	right:1em;
 	background:#6495ED;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('/public/image/icon/iconfont.eot');
+  src: url('/public/image/icon/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('/public/image/icon/iconfont.woff') format('woff'),
+  url('/public/image/icon/iconfont.ttf') format('truetype'),
+  url('/public/image/icon/iconfont.svg#iconfont') format('svg');
+}
+.iconfont:before{
+	content: "\e631"
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:1em;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.user-menu{
+	width:5em;
+	height:5em;
+	background:pink;
+	float:right;
+	margin-top:0.05em
 }

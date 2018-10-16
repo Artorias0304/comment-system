@@ -10,14 +10,14 @@
 		<div class="login-page">
 			<h1>Comment System Login</h1>
 			<div class='login-main'>
-				<form action="#">
+				<form id="login_form" action="/login" method="post" >
 					<div class='login-content'>
 							<label for="username">Your Username</label>
-							<input id="username" type="text" />	
+							<input id="username" name="username" type="text" />	
 							<label for="password">Your Password</label>
 							<span class='forgot'><a href="">Forgot password?</a></span>
-							<input id="password" type="password" />	
-						<button>Sign in</button>
+							<input id="password" name="password" type="password" />	
+						<button type="submit">Sign in</button>
 					</div>
 				</form>
 			</div>
@@ -25,5 +25,6 @@
 		</div>
 		
 	</body>
-	<script src='../public/js/login.js'></script>
+	<script src='/node_modules/jquery/dist/jquery.js'></script>
+	<script src='/public/js/login.js'></script>
 </html>
